@@ -142,7 +142,7 @@ nav {
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.15}}
 .hero-title {
   font-family:'Playfair Display',serif;
-  font-size:clamp(3rem,6vw,5.2rem);
+  font-size:clamp(2.5rem, 5vw, 4.2rem); /* DECREASED FONT SIZE HERE */
   font-weight:700; line-height:1.07;
   margin-bottom:1.6rem; color:var(--text-main);
   animation:fadeUp .8s .6s ease both;
@@ -345,15 +345,15 @@ footer {
 .ft-links {
   display: flex;
   gap: 1.5rem;
-}
-.ft-links a {
-  font-size: 0.75rem;
-  color: var(--text-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  transition: color 0.3s;
-  font-weight: 600;
+  a {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    transition: color 0.3s;
+    font-weight: 600;
+  }
 }
 .ft-links a:hover {
   color: var(--accent-cyan);
